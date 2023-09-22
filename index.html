@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="dashed.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background: linear-gradient(#626e80,);">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+
+    <!--NavBar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-secondary">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="images/navbar_logo1.png" height="35"> 
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav navbar">
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                </div>
+
+                <div class="navbar-nav navbar ms-auto">
+                    <a href="#whatiscpe" class="nav-item nav-link">What is BS C.p.E?</a>
+                </div>
+
+                <div class="navbar-nav navbar ms-auto">
+                    <a href="#studentorganization" class="nav-item nav-link">Student Organization</a>
+                </div>
+                    
+                <div class="navbar-nav navbar ms-auto">
+                    <a href="#whatwedo" class="nav-item nav-link">What We Do</a>
+                </div>
+
+                <div class="navbar-nav navbar ms-auto">
+                    <a href="#aboutthedepartment" class="nav-item nav-link">About the Department</a>
+                </div>   
+                    
+                <div class="navbar-nav navbar ms-auto">
+                    <a href="#ourspecialization" class="nav-item nav-link">Specializations</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+    <div class="container-lg my-5" id="home">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            </ol>
+                
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner2.jpg" class="d-block w-100" alt="Slide 1">
+
+                </div>
+                    
+                <div class="carousel-item">
+                    <img src="images/banner11.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/banner3.png" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+        
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div> 
+
+    <!--Sections-->
+
+
+    <section id="whatiscpe" class="about-cpe">
+        <div class="about-image">
+            <img src="images/cpe.jpg" class="float-start" width="305"  height="235">
+        </div>
+
+        <div class="about-cpe" >
+            <h1>What is BS Computer Engineering?</h1>
+            <p>A four-year engineering program that embodies  the science and technology of design, development,
+            implementation, maintenance and integration, of software and hardware components in modern computing 
+            systems and computer controlled equipment.</p>
+        </div>
+    </section>
+
+    <section id="studentorganization" class="about-studentorganization">
+        <div class="about-image">
+            <img src="images/scpes-nobg.png" class="float-end" width="305"  height="235">
+        </div>
+
+        <div class="about-text">
+            <h1>Student Organization</h1>
+            <p>The student organization - Society of Computer Engineering Students is an organization where
+            computer engineering students gather. In this society, a webinar, seminar, workshop, and other activities
+            are being held to gain more knowledge and experience different things. It helps the students to learn more
+            and to enjoy their time as a Computer Engineering student.
+            </p>
+        </div>
+    </section>
+
+    <section id="whatwedo" class="about-whatwedo">
+        <div class="container">
+            <div class="about-image">
+                <img src="images/wedo1.jpg" class="float-start" width="305"  height="235">
+            </div>
+
+            <div class="about-text">
+                <h1>What We Do</h1>
+                <p>Computer Engineering students learns how to code in different programming languages and make their 
+                own applications, websites and have done circuits as well as study the embedded system as 
+                their activity and projects. It helps them enhance their skills and develop their logical skills.   
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">MISSION STATEMENT</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The Department of Computer Engineering declares its role to produce competitive 
+                    engineers who are knowledgeable in the fundamental areas of digital and computer system 
+                    design, software development, and modeling of physical systems.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal1" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">VISION STATEMENT</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The Department of Computer Engineering will impact the information age as a 
+                    national leader in computing, research, and education.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal2" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">PROGRAM EDUCATIONAL OBJECTIVES
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>After three to five years from graduation, the Computer Engineering alumni shall:
+                    </p>
+                    <p>1. Have pursued advancement towards becoming globally competitive leaders in 
+                    their chosen field of practice.</p>
+                    <p>2. Be a contributor to the development of a progressive society, guided by the UE core 
+                    values of Excellence, Integrity, Professionalism, Teamwork, Commitment, Transparency, 
+                    Accountability and Social Responsibility.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal3" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">PROGRAM OUTCOME</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A. Apply knowledge of mathematics, science and engineering
+                    </p>
+                    <p>B. Design and conduct experiments, as well as to analyze and interpret data
+                    </p>
+                    <p>C. Design a system,  component or processes to meet desired needs within realistic 
+                    constraints
+                    </p>
+                    <P>D. Function on multi-disciplinary teams
+                    </P>
+                    <p>E. Identify, formulate and solve engineering problems</p>
+                    <p>F. Have an understanding of professional and ethical responsibilities.</p>
+                    <p>G. Communicate effectively in both Filipino and English languages</p>
+                    <p>H. Have an understanding of the impact of engineering solutions in a global and societal context</p>
+                    <p>I. Recognize the need for, and an ability to engage in life-long learning</p>
+                    <p>J. Apply knowledge of contemporary issues</p>
+                    <p>K. Use techniques, skills and modern engineering tools necessary for the practice of computer 
+                    engineering.</p>
+                    <p>L. Apply knowledge and understanding of engineering and management principles as a 
+                    member and leader in a team to manage projects and in multidisciplinary environments </p>
+                    <p>M. Understand at least one specialized field of computer engineering practice</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal4" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ARTIFICIAL INTELLIGENCE</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The Artificial Intelligence the ability of a digital computer or computer-controlled 
+                    robot to perform tasks commonly associated with intelligent beings. The term is frequently 
+                    applied to the project of developing systems endowed with the intellectual processes 
+                    characteristic of humans, such as the ability to reason, discover meaning, generalize, or 
+                    learn from past experience. </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal5" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">WEB & MOBILE DEVELOPMENT</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The Web Developers sole focus is on creating websites while Mobile App Developers 
+                    build applications that can only be used on mobile devices. Web development and mobile app 
+                    development might share a bit of common ground, but they are two separate career paths that 
+                    appeal to people with differing interests and strengths. Mobile app development tends to 
+                    require a broader range of skills than web development, making it a good career choice for 
+                    those who enjoy working on a variety of tasks throughout their day. While the job duties of 
+                    Web Developers can also vary, the scope of their responsibilities is much narrower, 
+                    especially if they are specializing in the front end or back end instead of working in a 
+                    multi-faceted full stack development role.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal6" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">INTERNET OF THINGS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The Internet of Things (IoT) refers to a network of physical devices, vehicles, 
+                    appliances and other physical objects that are embedded with sensors, software and network 
+                    connectivity that allows them to collect and share data. These devices — also known as 
+                    “smart objects” — can range from simple “smart home” devices like smart thermostats, to 
+                    wearables like smartwatches and RFID-enabled clothing, to complex industrial machinery and 
+                    transportation systems. Technologists are even envisioning entire “smart cities” 
+                    predicated on IoT technologies.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Cards-->
+    <center><h2 id="aboutthedepartment" style="font-family: enha;">About the Department</h2></center>
+    <div class="cards-dept">
+        <div class="card mx-2" style="width: 300px;">
+            <img src="images/mission1.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">MISSION</h5>
+                <p class="card-text">The Department of Computer Engineering declares its role to
+                     produce competitive </p>
+                <a href="#myModal" class="btn btn-primary" data-bs-toggle="modal">View More</a>
+            </div>
+        </div>
+    
+        <div class="card mx-2" style="width: 300px;">
+            <img src="images/vision.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">VISION</h5>
+                <p class="card-text">The Department of Computer Engineering will impact the information</p>
+                <a href="#myModal1" class="btn btn-primary" data-bs-toggle="modal">View More</a>
+            </div>
+        </div>
+
+        <div class="card mx-2" style="width: 300px;">
+            <img src="images/objective.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">OBJECTIVE</h5>
+                <p class="card-text">After three to five years from graduation, the Computer Engineering alumni shall:
+                </p>
+                <a href="#myModal2" class="btn btn-primary" data-bs-toggle="modal">View More</a>
+            </div>
+        </div>
+
+        <div class="card mx-2" style="width: 300px;">
+            <img src="images/outcome.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center h-100">
+                <h5 class="card-title">PROGRAM OUTCOME</h5>
+                <p class="card-text">A. Apply knowledge of mathematics, science and engineering <br>B. Design and conduct experiments,
+                </p>
+                
+                <a href="#myModal3" class="btn btn-primary" data-bs-toggle="modal">View More</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <center><h2 id="ourspecialization" style="font-family: enha;">Specializations</h2></center>
+    <div class="cards-dept2">
+        <div class="card mx-2" style="width: 300px;">
+            <img src="images/ai.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">ARTIFICIAL INTELLIGENCE</h5>
+                <p class="card-text">The Artificial Intelligence the ability of a digital computer or
+                computer-controlled robot </p>
+                <a href="#myModal4" class="btn btn-primary" data-bs-toggle="modal">View More</a>
+            </div>
+        </div>
+
+        <div class="card mx-2" style="width: 300px;">
+            <img src="images/webmb.gif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">WEB & MOBILE DEVELOPMENT</h5>
+                <p class="card-text">The Web Developer sole focus is on creating websites </p>
+                <a href="#myModal5" class="btn btn-primary" data-bs-toggle="modal">View More</a>
+            </div>
+        </div>
+
+        <div class="card mx-2" style="width: 300px;">
+            <img src="images/iot1.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">INTERNET OF THINGS</h5>
+                <p class="card-text">The Internet of Things (IoT) refers to a network of physical devices, vehicles,
+                    appliances and other physical objects that are embedded with sensors,
+                </p>
+                <a href="#myModal6" class="btn btn-primary" data-bs-toggle="modal">View More</a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Code+Pro:wght@300;400&display=swap');
+
+
+
+.section-padding {
+    padding: 100px auto;
+    
+}
+
+.navbar-nav a{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: black;
+}
+
+.carousel-item {
+    height: 70vh;
+    min-height: 100px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.about-cpe {
+    align-items: center;
+    text-align: right;
+    font-size: 16px;
+    margin: 80px;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.about-specialization {
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    width: 90%;
+}
+
+.about-studentorganization {
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin: 80px;
+    width: 90%;
+}
+
+.about-whatwedo {
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    margin: 80px;
+    width: 90%;
+}
+
+.cards-dp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cards-dept {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+} 
+
+.cards-dept2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+} 
+
+.about-text {
+    margin: 150px;
+} 
+
+
+@font-face {
+    font-family: "enha";
+    src: url(Poppins-Medium.ttf);
+}
