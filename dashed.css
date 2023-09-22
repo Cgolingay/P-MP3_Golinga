@@ -50,7 +50,7 @@
     margin: 80px;
     width: 90%;
     display: flex;
-    border-radius: 15%;
+
 }
 
 .about-specialization {
@@ -64,7 +64,7 @@
 
 .about-studentorganization {
     justify-content: center;
-    text-align: left;
+    text-align: right;
     align-items: center;
     margin: 80px;
     width: 90%;
@@ -73,12 +73,12 @@
 
 .about-whatwedo {
     justify-content: center;
-    text-align: right;
     align-items: center;
+    text-align: right;
     margin: 80px;
     width: 90%;
-    display: flex;
 }
+
 
 .cards-dp {
     display: flex;
